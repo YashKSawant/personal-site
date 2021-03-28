@@ -1,0 +1,139 @@
+html, body{
+    margin:0px; 
+    padding:0px;
+    color: #2d4059;
+}
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_frame{
+    background-color: #fefdca;
+    position: relative;
+    padding-top: 100px;
+}
+p{
+    padding: 10px;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+h1
+{
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+    color: crimson;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5rem;
+    padding: 15px 10px 15px 10px;
+    margin: 0;
+    font-weight: normal;
+    color: crimson;
+}
+hr{
+    border: dotted #a6b1e1 10px;
+    border-bottom: none;
+    width: 15%;
+    margin: 60px auto 60px auto;
+}
+a{
+    color: #ea5455;
+    margin: 20px 5px 20px 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+.clouds_left{
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+.clouds{
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+.cloud_near_city{
+    position: absolute;
+    right: 320px;
+}
+.profile{
+    margin: 50px;
+}
+.profile-para{
+    width: 50%;
+    margin: auto;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+}
+.skills_1{
+    width: 30%;
+    float: left;
+    margin: auto 15px auto 15px;
+}
+.skills_3{
+    width: 25%;
+    float: right;
+    margin: auto 15px auto 15px;
+}
+
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-link{
+    padding: 10px;
+}
+.logos{
+    padding: 0;
+    width: 25px;
+    height: 25px;
+}
+.contact-detail{
+    width: 50%;
+    margin: 30px auto 40px auto;
+}
+.btn
+{
+    background: #ff2e63;
+    background-image: -webkit-linear-gradient(top, #ff2e63, #f38181);
+    background-image: -moz-linear-gradient(top, #ff2e63, #f38181);
+    background-image: -ms-linear-gradient(top, #ff2e63, #f38181);
+    background-image: -o-linear-gradient(top, #ff2e63, #f38181);
+    background-image: linear-gradient(to bottom, #ff2e63, #f38181);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background: #ff165d;
+    text-decoration: none;
+}
+.copyright-details{
+    font-size: 0.75rem;
+    padding: 20px;
+}
+.middle-container{
+    margin: 50px auto 50px auto;
+}
+.bottom-container{
+    background-color: #fefdca;
+    font-size: 0.8rem;
+    position: relative;
+    margin: 0px;
+    padding: 40px auto 0px auto;
+}
